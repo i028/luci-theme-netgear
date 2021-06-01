@@ -341,10 +341,10 @@ header, .main {
 }
 
 header {
+    background: #FFF;
+    color: #FFF;
     height: 60px;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-    transition: box-shadow .2s; */
-    border-bottom: #bbb;
+    border-bottom: 1px dashed rgba(60, 60, 60, 0.3);
     float: left;
     position: fixed;
     z-index: 101;
@@ -459,11 +459,6 @@ footer > a {
 
 .pull-left {
     float: left;
-}
-
-header {
-    background: #fff;
-    color: white;
 }
 
 header > .container {
