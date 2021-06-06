@@ -165,6 +165,10 @@ hr{
     box-shadow: none !important;
 }
 
+.node-main-login header {
+    border-bottom: none;
+}
+
 .node-main-login > .main > .main-left {
     display: none;
 }
@@ -1788,6 +1792,10 @@ body.lang_pl.node-main-login .cbi-value-title {
 }
 
 @media screen and (max-width: 480px) {
+    .node-main-login .color-name img {
+        display: none;
+    }
+
     fieldset {
         padding: 1rem;
         margin: 1rem 0 0 0;
@@ -1799,7 +1807,7 @@ body.lang_pl.node-main-login .cbi-value-title {
     }
 
     #maincontent > .container {
-        margin: 0 1rem 1.5rem 1rem;
+        margin: 90px 0 0;
     }
 
     .main > .main-left > .nav > .slide > .menu {
