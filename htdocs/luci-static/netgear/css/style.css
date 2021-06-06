@@ -291,6 +291,8 @@ hr{
     text-transform: uppercase;
 }
 
+
+
 .node-main-login > .main .cbi-input-user,
 .node-main-login > .main .cbi-input-password {
     min-width: 17rem;

@@ -225,6 +225,7 @@
         }
     }
 
+
 })(jQuery);
 
 /*
@@ -240,9 +241,9 @@
     // }
 
     var userInput = document.getElementsByClassName('cbi-input-user')[0],
-        oMain = document.getElementsByClassName('main')[1],
-        oMainParentName = oMain.parentNode.className.split(/\s+/)[1];
-    if (oMainParentName == "node-main-login") {
+        oMain = document.getElementsByClassName('node-main-login')[1],
+        // oMainParentName = oMain.parentNode.className.split(/\s+/)[1];
+    if (oMainParentName == " node-main-login") {
         userInput.autocomplete = 'off';
     } else {
         
