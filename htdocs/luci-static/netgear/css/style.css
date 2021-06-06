@@ -1798,6 +1798,10 @@ body.lang_pl.node-main-login .cbi-value-title {
         display: none;
     }
 
+    .node-main-login .errorbox {
+        top: 62px;
+    }
+
     fieldset {
         padding: 1rem;
         margin: 1rem 0 0 0;
@@ -1809,7 +1813,7 @@ body.lang_pl.node-main-login .cbi-value-title {
     }
 
     #maincontent > .container {
-        margin: 90px 0 0;
+        margin: 90px 0 0 !important;
     }
 
     .main > .main-left > .nav > .slide > .menu {
