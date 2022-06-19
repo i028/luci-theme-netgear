@@ -44,9 +44,20 @@
         url("../fonts/advancedtomato.svg#advancedtomato") format("svg");
     font-weight: normal;
     font-style: normal;
-
 }
- 
+
+@font-face {
+	font-family: 'HomeLedeIcomoon';
+	src:  url('../fonts/icomoon.eot?p86j8');
+	src:  url('../fonts/icomoon.eot?p86j8#iefix') format('embedded-opentype'),
+	  url('../fonts/icomoon.ttf?p86j8') format('truetype'),
+	  url('../fonts/icomoon.woff?p86j8') format('woff'),
+	  url('../fonts/icomoon.svg?p86j8#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
 .cbi-button-up,
 .cbi-button-down,
 .cbi-value-helpicon,
@@ -608,51 +619,23 @@ header > .container > .brand-hostname {
     padding: 0;
 	padding-top:6px;
 }
-.main > .main-left > .nav > .slide > a[data-title="Status"]:before {
-    content: "\e026";
-    display: inline-block;
-    top: -1px;
-    left:-10px;
-    position: relative;
-    vertical-align: middle;
-    display: inline-block;
-    font-family: "advancedtomato" !important;
-    font-style: normal !important;
-    font-weight: normal !important;
-    font-variant: normal !important;
-    text-transform: none !important;
-    speak: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-}
-.main > .main-left > .nav > .slide > a:before {
-    display: inline-block;
-    top: -1px;
-    left:-10px;
-    position: relative;
-    vertical-align: middle;
-    display: inline-block;
-    font-family: "advancedtomato" !important;
-    font-style: normal !important;
-    font-weight: normal !important;
-    font-variant: normal !important;
-    text-transform: none !important;
-    speak: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-}
 
-@font-face {
-	font-family: 'HomeLedeIcomoon';
-	src:  url('../fonts/icomoon.eot?p86j8');
-	src:  url('../fonts/icomoon.eot?p86j8#iefix') format('embedded-opentype'),
-	  url('../fonts/icomoon.ttf?p86j8') format('truetype'),
-	  url('../fonts/icomoon.woff?p86j8') format('woff'),
-	  url('../fonts/icomoon.svg?p86j8#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-display: block;
-}
+/* .main > .main-left > .nav > .slide > a:before {
+    display: inline-block;
+    top: -1px;
+    left:-10px;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "advancedtomato" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+} */
 
 .main > .main-left > .nav > .slide > a:before {
     display: inline-block;
@@ -673,7 +656,7 @@ header > .container > .brand-hostname {
 	background-color:transparent;
 }
 
-
+/* 
 .main > .main-left > .nav > .slide > a[data-title="Status"]:before {
     content: "\e026";
 }
@@ -704,23 +687,63 @@ header > .container > .brand-hostname {
 
 .main > .main-left > .nav > .slide > a[data-title="Bandwidth Monitor"]:before {
     content: "\e00f";
+} */
+
+.main > .main-left > .nav > .slide > a[data-title="Status"]:before {
+    content: "\e900";
 }
 
-.main > .main-left > .nav > li > a[data-title="Logout"] {
-    padding: 10px 35px;
-    border: 1px dashed rgba(154, 37, 143, 0.9);
-    border-radius: 100px;
-    box-shadow: none;
+.main > .main-left > .nav > .slide > a[data-title="System"]:before {
+    content: "\e994";
 }
-.main > .main-left > .nav > li > a[data-title="Logout"]:before {
-    content: "\e005";
+
+.main > .main-left > .nav > .slide > a[data-title="Services"]:before {
+    content: "\e904";
+}
+
+.main > .main-left > .nav > .slide > a[data-title="NAS"]:before {
+    content: "\e9c5";
+}
+
+.main > .main-left > .nav > .slide > a[data-title="Control"]:before {
+    content: "\e953";
+}
+
+.main > .main-left > .nav > .slide > a[data-title="dns"]:before {
+    content: "\e9a5";
+}
+
+.main > .main-left > .nav > .slide > a[data-title="VPN"]:before {
+    content: "\e9af";
+}
+
+.main > .main-left > .nav > .slide > a[data-title="Network"]:before {
+    content: "\e9bc";
+}
+
+.main > .main-left > .nav > .slide > a[data-title="Bandwidth Monitor"]:before {
+    content: "\e9a6";
+}
+
+.main > .main-left > .nav > .slide > a[data-title="Statistics"]:before {
+    content: "\e99b";
+}
+.main > .main-left > .nav > .slide > a[data-title="QOS"]:before {
+    content: "\e99d";
+}
+.main > .main-left > .nav > .slide > a[data-title="Docker"]:before {
+    content: "\e901";
+}
+
+.main > .main-left > .nav > .slide > a[data-title="Status"]:before {
+    content: "\e900";
     display: inline-block;
     top: -1px;
     left:-10px;
     position: relative;
     vertical-align: middle;
     display: inline-block;
-    font-family: "advancedtomato" !important;
+    font-family: "HomeLedeIcomoon" !important;
     font-style: normal !important;
     font-weight: normal !important;
     font-variant: normal !important;
@@ -730,18 +753,44 @@ header > .container > .brand-hostname {
     -webkit-font-smoothing: antialiased;
 }
 
-.main > .main-left > .nav > li > a[data-title="Reboot"] {
-    padding: 10px 35px;
-}
-.main > .main-left > .nav > li > a[data-title="Reboot"]:before {
-    content: "\e004";
+.main > .main-left > .nav > li > a[data-title="Logout"]:before {
+    content: "\ea14";
     display: inline-block;
     top: -1px;
     left:-10px;
     position: relative;
     vertical-align: middle;
     display: inline-block;
-    font-family: "advancedtomato" !important;
+    font-family: "HomeLedeIcomoon" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main > .main-left > .nav > li > a[data-title="Logout"] {
+    padding: 10px 35px 10px 28px;
+    border: 1px dashed rgba(154, 37, 143, 0.9);
+    border-radius: 100px;
+    box-shadow: none;
+}
+
+
+.main > .main-left > .nav > li > a[data-title="Reboot"] {
+    padding: 10px 35px;
+}
+.main > .main-left > .nav > li > a[data-title="Reboot"]:before {
+    content: "\ea14";
+    display: inline-block;
+    top: -1px;
+    left:-10px;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "HomeLedeIcomoon" !important;
     font-style: normal !important;
     font-weight: normal !important;
     font-variant: normal !important;
